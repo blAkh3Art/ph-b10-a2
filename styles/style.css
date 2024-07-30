@@ -763,3 +763,74 @@
   }
 
     /* Unique Section for Challenge part 2: Time Schedule Section Ends Here */
+
+    /* Footer Section Styles. */
+footer {
+    background-color: rgb(34, 34, 34);
+  }
+  
+  .footer-container {
+    top: 120px;
+    padding: 3.5rem 0rem 1rem 0rem;
+  }
+  
+  .footer-container-top {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    justify-content: space-between;
+    gap: 8rem;
+    margin-bottom: 2rem;
+  }
+  
+  .footer-left-title {
+    padding-bottom: 1.5rem;
+    margin: 0rem;
+    color: rgb(230, 83, 60);
+    font-size: 5rem;
+    font-weight: 900;
+  }
+  
+  .footer-left-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    padding-right: 8rem;
+  }
+  
+  .footer-middle,
+  .footer-right {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .footer-container-top h3 {
+    margin: 0rem;
+    font-size: 1.8rem;
+    color: white;
+    padding-top: 0.8rem;
+  }
+  
+  .footer-container-top p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  .footer-nav-links {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .footer-nav-links p{
+    cursor: pointer;
+  }
+  
+  .copyright-text {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+  /* End of Footer Style */

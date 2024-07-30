@@ -202,4 +202,14 @@ Large Device: above 993 px  */
         grid-template-columns: 1fr 1fr;
     }
 
+    .footer-container-top {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-middle, .footer-right {
+        gap: 15px;
+    }
+
 }
