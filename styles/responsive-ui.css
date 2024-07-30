@@ -61,4 +61,45 @@ Large Device: above 993 px  */
         max-width: 80%;
     }
 
+    .habit-card{
+        grid-template-columns: repeat(1,1fr);
+        gap: 28px;
+    }
+
+    .habit-title{
+        font-size: 1.8rem;
+        font-weight: 900;
+        margin-bottom: 10px;
+    }
+
+    .run-section{
+        flex-direction: column;
+        margin: 0 auto 3.5rem auto;
+        width: 95%;
+        padding: 28px;
+    }
+
+    .run-text, .run-section-img {
+        width: 100%;
+    }
+    .run-title{
+        font-size: 2rem;
+    }
+
+    #run-img{
+        display: block;
+        border-radius: 20px;
+        width: 100%;
+    }
+
+    .run-img{
+        display: none;
+    }
+
+    #run-btn{
+        font-size: 0.8rem;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
 }

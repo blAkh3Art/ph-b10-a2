@@ -218,3 +218,104 @@
   }
 
   /* Banner Section Style End */
+
+   /* Habit Section Style */
+
+   .habit-container{
+    margin: 6rem 0;
+  }
+
+  .habit-text{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .habit-title{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: white;
+  }
+
+  .habit-description{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.51);
+  }
+
+  .habit-card{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+
+  .habit-img{
+    margin-bottom: 20px;
+    border-radius: 50%;
+  }
+
+  .habit-img-title{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+  }
+
+  .habit-img-sub{
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.51);
+  }
+
+  /* Habit Section Style Ends */
+
+  /* Run Extra Miles Section Style */
+
+  .run-section{
+    background-color: rgb(34, 34, 34);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    padding: 20px 30px 20px 50px;
+  }
+
+  .run-text, .run-section-img{
+    background-color: rgb(34, 34, 34);
+    width: 50%;
+  }
+
+  .run-title{
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+  }
+
+  .run-description{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.51);
+    background-color: rgb(34, 34, 34);
+    margin-bottom: 28px;
+  }
+
+  #run-btn{
+    font-size: 0.8rem;
+    padding: 10px 50px;
+    cursor: pointer;
+  }
+
+  .run-img{
+    border-radius: 20px;
+    width: 70%;
+    height: 340px;
+    object-fit: none;
+    object-position: 66% 33%;
+    margin-left: 10rem;
+  }
+
+  #run-img{
+    display: none;
+  }
+
+  /* End of Run Extra Mile Section */
