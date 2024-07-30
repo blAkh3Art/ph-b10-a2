@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+CU:wght@100..400&display=swap");
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+  .playwrite-cu-font {
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+   /* Frequently used Style */
+   .width-range{
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-uppercase{
+    text-transform: uppercase;
+  }
+
+  .display-flex{
+    display: flex;
+  }
+
+  .navbtn-p{
+    align-items: center;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 50px;
+    background-color: rgb(230, 84, 60);
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+  }
+
+  .navbtn{
+    align-items: center;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 50px;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    
+  }
+
+  .border-style{
+    border: 1px solid rgba(245, 245, 245, 0.7);
+  }
+
+  .background{
+    background-color:black;
+  }
+
+  /* End */
+
+  body{
+    margin: 0 auto;
+    background-color: black;
+  }
+
+  header{
+    background: linear-gradient(180deg, rgba(62, 74, 74, 1) 0%, rgb(42 42 42 / 99%) 0%, rgba(0, 0, 0, 1) 100%);
+  }
+
+  /* Navbar Style */
+
+  .navbar{
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    padding-top: 50px;
+  }
+
+  .brand{
+    color: rgb(230, 84, 60);
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+  .navbar-items{
+    padding: 3px;
+    border: 1px solid rgba(245, 245, 245, 0.26);
+    border-radius: 50px;
+  }
+
+  .navbar-items button{
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  /* Mobile View Menu Style */
+
+  .ham-menu{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 600;
+    display: none;
+  }
+
+  /* Banner Section Style */
+
+  .banner{
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .banner-title{
+    font-size: 3.9rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  .banner-text{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-family: Inter;
+  }
+
+  .banner-btn{
+    margin-right: 38px;
+    cursor: pointer;
+  }
+
+  .banner-images{
+    position: relative;
+  }
+
+  .tutorial{
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 90px;
+    gap: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    background-color: rgba(48, 48, 48, 0.55);
+    position: absolute;
+    top: 70%;
+    left: -27%;
+  }
+
+  .circle {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(230, 83, 59);
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+
+  .workout{
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+    height: 90px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    background-color: rgba(48, 48, 48, 0.7);
+    position: absolute;
+    top: 22%;
+    left: 64%;
+  }
+
+  .fa-solid {
+    background-color: rgba(48, 48, 48, 0);
+  }
+  .text-350 {
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: white;
+    padding-bottom: 5px;  
+  }
+
+  .text-500{
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+    padding-bottom: 5px;
+    
+  }
+
+  .video-tutorial {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+
+  /* Banner Section Style End */

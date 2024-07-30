@@ -1,0 +1,64 @@
+/* Small device: upto 576 px 
+Medium Device: 576px to 992 px 
+Large Device: above 993 px  */
+
+/* Small device: upto 576 px */
+@media screen and (max-width: 576px) {
+    
+    .width-range{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .navbar{
+      width: 85%;
+      margin: 0 auto;
+    }
+
+    .navbar-items{
+        display: none;
+    }
+
+    .ham-menu{
+        display: block;
+    }
+
+    .banner{
+        flex-direction: column;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .banner-items{
+        margin-bottom: 2rem;
+    }
+
+    .banner-title{
+        font-size: 2.9rem;
+        margin-top: 50px;
+    }
+
+    .banner-btn{
+        margin-right: 20px;
+        margin-bottom: 5px;
+    }
+
+
+    .tutorial{
+        width: 150px;
+        top: 43%;
+        left: 5%;
+
+    }
+
+    .workout{
+        width: 150px;
+        left: 55%;
+        top: 5%;
+    }
+
+    .banner-text{
+        max-width: 80%;
+    }
+
+}
