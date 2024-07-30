@@ -610,3 +610,71 @@
   }
   
   /* BMI Calculate Section Ends Here */
+
+  /* Team Section Style Start */
+
+.team-section{
+    margin-bottom: 70px;
+  }
+  
+  .team-text-container {
+  margin-bottom: 50px;
+  text-align: center;
+  }
+  .team-title {
+  color: white;
+  font-size: 2.8rem;
+  font-weight: 900;
+  }
+  .team-subtext {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  }
+  
+  .team-grid{
+    padding: 20px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 15px;
+  }
+  
+  .team-row {
+  max-width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: rgba(30, 31, 30, 0.01);
+  }
+  
+  .team-row img {
+  width: 100%;
+  height: 210px;
+  border-radius: 15px;
+  }
+  
+  .team-row-img {
+  position: relative;
+  }
+  
+  .team-row-img-text {
+  position: absolute;
+  top: 75%;
+  background-color: rgba(30, 31, 30, 0.01);
+  opacity: 0.8;
+  left: 5%;
+  color: white;
+  }
+  
+  .team-row-img p{
+  position: absolute;
+  top: 85%;
+  background-color: rgba(30, 31, 30, 0.01);
+  opacity: 0.8;
+  left: 5%;
+  color:rgb(172, 170, 170);
+  }
+    
+  /* Team Section Style Ends */

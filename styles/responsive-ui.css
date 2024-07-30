@@ -163,4 +163,16 @@ Large Device: above 993 px  */
         padding: 0px;
     }
 
+    .team-section{
+        margin-bottom: 4rem;
+    }
+
+    .team-row{
+        grid-template-columns:1fr;
+    }
+
+    .trainer1, .trainer4 {
+        display: none;
+    }
+
 }
