@@ -102,4 +102,16 @@ Large Device: above 993 px  */
         margin-bottom: 20px;
     }
 
+    .training-section{
+        margin-bottom: 4rem;
+    }
+
+    .training-row1{
+        grid-template-columns: 1fr 1fr 0fr;
+    }
+
+    .training-row2{
+        grid-template-columns: 1fr 1fr 0fr;
+    }
+
 }
