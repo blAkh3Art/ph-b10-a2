@@ -678,3 +678,88 @@
   }
     
   /* Team Section Style Ends */
+
+  /* Unique Section for Challenge part 2: Time Schedule Section */
+
+  .class-time-dropdown{
+    display: none;
+  }
+
+  .timetable-container{
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 4.5rem;
+  }
+
+  .timetable-text{
+    margin: 10px auto;
+  }
+
+  .time-sub{
+   color:  rgb(230, 84, 60);
+   font-weight: 500;
+   font-size: 2rem;
+  }
+
+  .time-title{
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  .timetable{
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+
+  .timetable > button{
+    border-radius: 0px;
+  }
+
+  .time-card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    gap: 20px;
+    
+  }
+
+  .time-card{
+    background-color: rgb(34, 34, 34);
+    border: 1px solid rgba(245, 245, 245, 0.26);
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 200px;
+    
+  }
+
+  .box-text-position{
+    margin-top: 15%;
+  }
+
+  .box-text-position h6{
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-bottom: 10px;
+    background-color: rgb(34, 34, 34);
+  }
+
+  .box-text-position h5{
+    color:  rgb(230, 84, 60);
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    background-color: rgb(34, 34, 34);
+  }
+
+  .box-text-position p{
+    color: rgba(255, 255, 255, 0.51);
+    font-weight: 400;
+    font-size: 0.9rem;
+    background-color: rgb(34, 34, 34);
+  }
+
+    /* Unique Section for Challenge part 2: Time Schedule Section Ends Here */

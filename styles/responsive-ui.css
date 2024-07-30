@@ -175,4 +175,31 @@ Large Device: above 993 px  */
         display: none;
     }
 
+    .class-time-dropdown{
+        display: block;
+    }
+
+    #day-select{
+    height: 60px;
+    width: 90%;
+    margin: 0 auto 1rem auto;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    cursor: pointer;
+    }
+
+    #day-select option{
+    color: rgb(230, 84, 60);
+    background-color: rgb(48, 48, 48);
+    font-size: 0.8rem;
+    cursor: pointer;
+    }
+
+    .time-card-container{
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
