@@ -120,6 +120,12 @@
     display: none;
   }
 
+  .mobile-dropdown{
+    display: none;
+  }
+
+  /* End Mobile Menu Style */
+
   /* Banner Section Style */
 
   .banner{
