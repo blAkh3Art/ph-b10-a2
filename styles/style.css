@@ -107,8 +107,11 @@
   }
 
   .navbar-items button{
-    margin-right: 20px;
     cursor: pointer;
+  }
+
+  .navbar-items button:hover{
+    background-color: rgb(230, 84, 60);
   }
 
   /* Mobile View Menu Style */
