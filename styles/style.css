@@ -253,6 +253,7 @@
 
   .habit-img{
     margin-bottom: 20px;
+    border: 3px solid rgb(24, 24, 24);
     border-radius: 50%;
   }
 
